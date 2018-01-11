@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 14.0.25420.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{C1FAE21D-AE96-42B0-8B43-7E00B84BD0E3}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicFodyAddinSample", "BasicFodyAddinSample\BasicFodyAddinSample.csproj", "{3FA20B48-D737-4F90-B4D0-95D8C28B22BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {345B3A84-DB0C-4BB3-AD82-EDA762D35493}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 2f38512b-20a3-4f87-a0bf-c9e919c18c12
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PropertyChangedSample\PropertyChangedSample.csproj
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA20B48-D737-4F90-B4D0-95D8C28B22BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA20B48-D737-4F90-B4D0-95D8C28B22BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA20B48-D737-4F90-B4D0-95D8C28B22BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA20B48-D737-4F90-B4D0-95D8C28B22BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
